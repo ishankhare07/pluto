@@ -45,6 +45,10 @@ type Instance struct {
 	Components         []string          `json:"-" yaml:"-"`
 }
 
+func (instance *Instance) FilterOutput() {
+	instance.filterOutput()
+}
+
 // DisplayOutput prints the output based on desired variables
 func (instance *Instance) DisplayOutput() error {
 	if len(instance.Outputs) == 0 && (instance.OutputFormat == "normal" || instance.OutputFormat == "wide") {
