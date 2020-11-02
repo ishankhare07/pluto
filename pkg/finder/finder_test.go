@@ -18,7 +18,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/fairwindsops/pluto/v3/pkg/api"
+	"github.com/ishankhare07/pluto/pkg/api"
 	"github.com/stretchr/testify/assert"
 )
 

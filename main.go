@@ -15,7 +15,7 @@
 package main
 
 import (
-	"github.com/fairwindsops/pluto/v3/cmd"
+	"github.com/ishankhare07/pluto/cmd"
 	"github.com/markbates/pkger"
 )
 
